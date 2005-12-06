@@ -3,6 +3,7 @@
 %bcond_without	static_libs	# don't build static library
 #
 Summary:	libmsip - C++ implementation of the SIP (RFC3261) protocol
+Summary(pl):	libmsip - implementacja w C++ protoko³u SIP (RFC3261)
 Name:		libmsip
 Version:	0.3.0
 Release:	0.1
@@ -21,6 +22,11 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 libmsip implements the Session Initiation Protocol, in a C++ library.
 The SIP protocol is used mostly to initialize Voice over IP calls.
+
+%description -l pl
+libmsip to biblioteka C++ implementuj±ca protokó³ Session Initiation
+Protocol. Protokó³ SIP jest u¿ywany g³ównie do nawi±zywnia po³±czeñ
+Voice over IP.
 
 %package devel
 Summary:	Header files for libmsip library
