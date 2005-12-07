@@ -6,7 +6,7 @@ Summary:	libmsip - C++ implementation of the SIP (RFC3261) protocol
 Summary(pl):	libmsip - implementacja w C++ protoko³u SIP (RFC3261)
 Name:		libmsip
 Version:	0.3.0
-Release:	0.1
+Release:	1
 License:	LGPL
 Group:		Libraries
 Source0:	http://www.minisip.org/source/%{name}-%{version}.tar.gz
