@@ -3,7 +3,7 @@
 %bcond_without	static_libs	# don't build static library
 #
 Summary:	libmsip - C++ implementation of the SIP (RFC3261) protocol
-Summary(pl):	libmsip - implementacja w C++ protoko≥u SIP (RFC3261)
+Summary(pl.UTF-8):   libmsip - implementacja w C++ protoko≈Çu SIP (RFC3261)
 Name:		libmsip
 Version:	0.3.0
 Release:	1
@@ -23,14 +23,14 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 libmsip implements the Session Initiation Protocol, in a C++ library.
 The SIP protocol is used mostly to initialize Voice over IP calls.
 
-%description -l pl
-libmsip to biblioteka C++ implementuj±ca protokÛ≥ Session Initiation
-Protocol. ProtokÛ≥ SIP jest uøywany g≥Ûwnie do nawi±zywnia po≥±czeÒ
+%description -l pl.UTF-8
+libmsip to biblioteka C++ implementujƒÖca protok√≥≈Ç Session Initiation
+Protocol. Protok√≥≈Ç SIP jest u≈ºywany g≈Ç√≥wnie do nawiƒÖzywnia po≈ÇƒÖcze≈Ñ
 Voice over IP.
 
 %package devel
 Summary:	Header files for libmsip library
-Summary(pl):	Pliki nag≥Ûwkowe biblioteki libmsip
+Summary(pl.UTF-8):   Pliki nag≈Ç√≥wkowe biblioteki libmsip
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	libmnetutil-devel >= %{version}
@@ -38,19 +38,19 @@ Requires:	libmnetutil-devel >= %{version}
 %description devel
 Header files for libmsip library.
 
-%description devel -l pl
-Pliki nag≥Ûwkowe biblioteki libmsip.
+%description devel -l pl.UTF-8
+Pliki nag≈Ç√≥wkowe biblioteki libmsip.
 
 %package static
 Summary:	Static libmsip library
-Summary(pl):	Statyczna biblioteka libmsip
+Summary(pl.UTF-8):   Statyczna biblioteka libmsip
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static libmsip library.
 
-%description static -l pl
+%description static -l pl.UTF-8
 Statyczna biblioteka libmsip.
 
 %prep
