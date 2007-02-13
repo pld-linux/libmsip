@@ -3,7 +3,7 @@
 %bcond_without	static_libs	# don't build static library
 #
 Summary:	libmsip - C++ implementation of the SIP (RFC3261) protocol
-Summary(pl.UTF-8):   libmsip - implementacja w C++ protokołu SIP (RFC3261)
+Summary(pl.UTF-8):	libmsip - implementacja w C++ protokołu SIP (RFC3261)
 Name:		libmsip
 Version:	0.3.0
 Release:	1
@@ -30,7 +30,7 @@ Voice over IP.
 
 %package devel
 Summary:	Header files for libmsip library
-Summary(pl.UTF-8):   Pliki nagłówkowe biblioteki libmsip
+Summary(pl.UTF-8):	Pliki nagłówkowe biblioteki libmsip
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	libmnetutil-devel >= %{version}
@@ -43,7 +43,7 @@ Pliki nagłówkowe biblioteki libmsip.
 
 %package static
 Summary:	Static libmsip library
-Summary(pl.UTF-8):   Statyczna biblioteka libmsip
+Summary(pl.UTF-8):	Statyczna biblioteka libmsip
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
